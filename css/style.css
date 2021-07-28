@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* top header section start */
+header{
+    text-align: center;
+}
+.top_header{
+    overflow: hidden;
+    text-align: center;
+}
+.top_header_left{
+    width: 30%;
+    height: 50px;
+    background-color: tomato;
+    float: left;
+}
+.top_header-right{
+    width: 70%;
+    height: 50px;
+    background-color: rgb(0, 255, 242);
+    float: left;
+}
+/* top header section End */
+/* header section start */
+.logo{
+    width: 25%;
+    height: 80px;
+    background-color: orange;
+    float: left;
+}
+nav{
+    width: 75%;
+    height: 80px;
+    background-color: rgb(4, 0, 253);
+    float: left;
+    color: white;
+}
+/* header section end */
+/* banner section start */
+.banner{
+    position: relative;
+}
+.banner::before {
+    content: "This is Banner Content area";
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    top: 150px;
+    left: 152px;
+    position: absolute;
+}
+/* banner section End */
+/* about section sart here */
+.about_section{
+    overflow: hidden;
+    margin-top: 70px;
+    text-align: center;
+}
+.about-wrapper{
+    margin-top: 70px;
+}
+.about_image{
+    width: 40%;
+    height: 300px;
+    background-color: rgb(54, 123, 168);
+    float: left;
+}
+.about_content{
+    width: 60%;
+    height: 300px;
+    background-color: red;
+    float: right;
+}
+/* about section End here */
+/* servicce section start */
+.container{
+    width: 80%;
+    margin: auto;
+}
+.service_section{
+    text-align: center;
+    margin-top: 70px;
+}
+.service_header{
+    width: 40%;
+    height: 70px;
+    margin: auto;
+    background-color: rgb(0, 208, 255);
+}
+.service_item{
+    overflow: hidden;
+    margin-top: 70px;
+}
+.service_item_1{
+    width: 25%;
+    height: 400px;
+    background-color:rgb(71, 135, 255) ;
+    float: left;
+  
+}
+.service_item_2{
+    width: 25%;
+    height: 400px;
+    background-color:rgb(255, 0, 255) ;
+    float: left;
+}
+.service_item_3{
+    width: 25%;
+    height: 400px;
+    background-color:rgb(172, 246, 0) ;
+    float: left;
+}
+.service_item_4{
+    width: 25%;
+    height: 400px;
+    background-color:tomato ;
+    float: left;
+}
+/* servicce section End */
+/* Feature work start here */
+.future_section{
+    text-align: center;
+    margin-top: 70px;
+}
+.future_item{
+    display: flex;
+    margin-top: 70px;
+   
+}
+.future_item-1{
+    width:33% ;
+    height: 400px;
+    background-color: red;
+}
+.future_item-2{
+    width:33% ;
+    height: 400px;
+    background-color: rgb(0, 162, 255);
+}
+.future_item-3{
+    width:33% ;
+    height: 400px;
+    background-color: rgb(217, 255, 0);
+}
+.future-secund-item{
+    display: flex;
+    margin-top: 20px;
+}
+.future_item-4{
+    width:33% ;
+    height: 400px;
+    background-color: rgb(76, 0, 255);
+}
+.future_item-5{
+    width:33% ;
+    height: 400px;
+    background-color: rgb(255, 0, 85);
+}
+.future_item-6{
+    width:33% ;
+    height: 400px;
+    background-color: rgb(240, 0, 220);
+}
+
+/* Feature work end here */
+/* Pricing table start */
+.pricin_item{
+
+    background-image: url('../image/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pricin_item{
+    display: flex;
+    margin-top: 70px;
+    text-align: center;
+}
+.pricing_1{
+    width: 33%;
+    height: 450px;
+    border: 2px solid red;
+}
+.pricing_2{
+    width: 33%;
+    height: 450px;
+    border: 2px solid red;
+}
+.pricing_3{
+    width: 33%;
+    height: 450px;
+    border: 2px solid red;
+}
+/* Pricing table End */
+/* feature news section start */
+.service_header{
+    margin-top: 70px;
+    text-align: center;
+}
+.future_item{
+    margin-top: 70px;
+    text-align: center;
+}
+/* feature news section end */
+/* Footer Section start */
+.footer-item{
+    overflow: hidden;
+    margin-top: 200px;
+}
+.footer-1{
+    width: 25%;
+    height: 200px;
+    background-color: rgb(0, 208, 255);
+    float: left;
+}
+.footer-2{
+    width: 25%;
+    height: 200px;
+    background-color: rgb(251, 0, 155);
+    float: left;
+}
+.footer-3{
+    width: 25%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    float: left;
+}
+.footer-4{
+    width: 25%;
+    height: 200px;
+    background-color: rgb(255, 238, 0);
+    float: left;
+}
+/* Footer Section End  */
+
+/* copyrite section start */
+.copy-write{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+   
+}
+.counter_section{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    margin-top: 70px;
+}
+.counter_1{
+    width: 25%;
+}
+.counter_2{
+    width: 25%;
+  
+}
+.counter_3{
+    width: 25%;
+   
+}
+.counter_4{
+    width: 25%;
+   
+}
+/* copyrite section end */
+
